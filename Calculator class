@@ -1,0 +1,24 @@
+# Array-Overload-Static-Method
+public class Calculator {
+    public static double getSum(double [] num) {
+        double sum = 0;
+        for(int i=0; i<num.length; i++) {
+            sum += num[i];
+        }
+        return sum;
+    }
+    public static double getAverage(double [] num) {
+        double sum = 0;
+        for(int i=0; i<num.length; i++) {
+           sum += num[i];
+        }
+        return(sum/num.length);
+    }
+    public static double getProduct(double [] num) {
+        double product = num[0];
+        for(int i=0; i<num.length; i++) {
+            product = product * num[i];
+        }
+        return product;
+    }
+}
