@@ -1,0 +1,21 @@
+# Array-Overload-Static-Method
+public class CalculatorDriver {
+    public static void main(String [] args) {
+        double [] num = new double [10];
+ 
+        num[0] = 60.1;
+        num[1] = 5.9;
+        num[2] = 11.5;
+        num[3] = 2.8;
+        num[4] = 36.9;
+        num[5] = 81.6;
+        num[6] = 232.7;
+        num[7] = 95.4;
+        num[8] = 8.3;
+        num[9] = 99.9;
+ 
+        System.out.println(Calculator.getSum(num));
+        System.out.println(Calculator.getAverage(num));
+        System.out.println(Calculator.getProduct(num));
+    }
+}
